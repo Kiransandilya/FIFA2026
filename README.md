@@ -19,7 +19,7 @@ A tiny desktop widget for the 2026 FIFA World Cup. Today's matches with **live s
 | System | Double-click | First-launch setup |
 |---|---|---|
 | **Windows** | `run-windows.bat` | none — just double-click |
-| **macOS** | `run-mac.command` | one-time only — see below |
+| **macOS** | `run-mac.command` | open Terminal - type "chmod +x <fullpath of the run-mac.command>" or type "chmod +x and drag `run-mac.command`"|
 | **Linux** | `run-linux.sh` | one-time only — see below |
 
 **Why Mac/Linux need one step the first time:** unzipping strips the "executable" flag, and a file that isn't marked runnable can't start itself (so there's no in-file fix or password prompt that helps). Do this **once** and double-click works forever after, because the launcher re-marks itself executable on that first run:
