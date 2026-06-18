@@ -1,4 +1,4 @@
-# World Cup 26 · Matchday
+# World Cup 2026 · Matchday
 
 A tiny desktop widget for the 2026 FIFA World Cup. Today's matches with **live scores**, plus the **full schedule** for your favorite team or host city — in a small window that sits in the corner of your screen.
 
