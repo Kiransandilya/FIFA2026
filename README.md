@@ -1,4 +1,4 @@
-# World Cup 2026 · Matchday
+# World Cup 26 · Matchday
 
 A tiny desktop widget for the 2026 FIFA World Cup. Today's matches with **live scores**, plus the **full schedule** for your favorite team or host city — in a small window that sits in the corner of your screen.
 
@@ -10,19 +10,23 @@ A tiny desktop widget for the 2026 FIFA World Cup. Today's matches with **live s
   </tr>
 </table>
 
-## Open it as a little window
+## Open it
 
-Double-click the launcher for your system. It opens in a clean, frameless app window — no tabs, no address bar. **Keep all the files together in one folder.**
+**Simplest — works everywhere, nothing to set up:** double-click **`fifa_widget.html`**. It opens in your browser and works exactly the same. (Want it as its own window with no tabs? In Chrome/Edge: **⋮ menu → Cast, Save, and Share → Install page as app** — or **Create shortcut** with *Open as window* ticked. Now it lives in your Dock/Start menu like an app, no Terminal involved.)
 
-| System | Double-click | First time |
+**Frameless "app window" launchers** (Chrome/Edge/Brave/Chromium — no tabs, no address bar). Keep all the files together in one folder.
+
+| System | Double-click | First-launch setup |
 |---|---|---|
-| **Windows** | `run-windows.bat` | — |
-| **macOS** | `run-mac.command` | right-click → **Open** |
-| **Linux** | `run-linux.sh` | `chmod +x run-linux.sh`, then `./run-linux.sh` |
+| **Windows** | `run-windows.bat` | none — just double-click |
+| **macOS** | `run-mac.command` | one-time only — see below |
+| **Linux** | `run-linux.sh` | one-time only — see below |
 
-Needs Chrome, Edge, Brave, or Chromium installed. Nothing to set up.
+**Why Mac/Linux need one step the first time:** unzipping strips the "executable" flag, and a file that isn't marked runnable can't start itself (so there's no in-file fix or password prompt that helps). Do this **once** and double-click works forever after, because the launcher re-marks itself executable on that first run:
 
-*Other ways:* run `python app.py` for a fully frameless window (`pip install pywebview` once), or just open `fifa_widget.html` in any browser — or host it free on GitHub Pages.
+> Open **Terminal**, type `bash` **and a space**, drag `run-mac.command` (or `run-linux.sh`) into the window, and press Return.
+
+*Also available:* `python app.py` for a fully frameless native window (`pip install pywebview` once), or host the folder free on GitHub Pages.
 
 ## What you're looking at
 
